@@ -28,8 +28,6 @@ int main() {
 
     for(int i = 0; i<25; ++i) {
 
-        // Important!
-        // If m is not prime it will infinite loop
         int m = primes[i];
 
         cout << "Modulo " << m << endl;
